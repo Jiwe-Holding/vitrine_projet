@@ -11,7 +11,44 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: '7',
+    title: "Participation au Salon International de l’Agriculture (SIA)",
+    excerpt: "ASM Vitrine Projet valorise les filières agricoles congolaises et organise la présence de la RDC à l’un des plus grands salons mondiaux.",
+    content: `
+      <p>ASM Vitrine Projet coordonne la participation de la RDC au Salon International de l’Agriculture à Paris, vitrine incontournable des savoir-faire agricoles et alimentaires.</p>
+      
+      <h2>Objectifs principaux</h2>
+      <p>Mettre en valeur les filières congolaises, attirer des partenaires techniques et économiques, et promouvoir l’image d’une agriculture moderne et compétitive.</p>
+      
+      <h2>Accompagnement complet</h2>
+      <p>Organisation logistique, préparation des supports de communication, gestion des relations presse et facilitation des rencontres B2B pour créer des opportunités concrètes de développement et de coopération internationale.</p>
+    `,
+    date: 'Mars 5, 2025',
+    category: 'Événement',
+    imageUrl: '/assets/img/articles/sia_event.jpg',
+    featured: true
+  },
+  {
+    
     id: '1',
+    title: "Participation au Salon de l’Industrie Minérale (SIM)",
+    excerpt: "ASM Vitrine Projet accompagne la délégation congolaise pour valoriser le potentiel minier de la RDC et nouer des partenariats techniques.",
+    content: `
+      <p>ASM Vitrine Projet a participé au Salon de l’Industrie Minérale de Bordeaux pour présenter les atouts du secteur minier congolais et favoriser les échanges avec des partenaires internationaux.</p>
+      
+      <h2>Objectifs stratégiques</h2>
+      <p>Valoriser les ressources minières, renforcer la visibilité des institutions et établir des contacts B2B ciblés pour développer des collaborations durables.</p>
+      
+      <h2>Accompagnement sur mesure</h2>
+      <p>Coordination avec le Ministère des Mines, préparation des supports de communication, organisation de rencontres et suivi des partenariats pour maximiser l’impact de la participation congolaise.</p>
+    `,
+    date: 'Mai 2, 2025',
+    category: 'Événement',
+    imageUrl: '/assets/img/articles/sim_event.png',
+    featured: true
+  },
+  {
+    id: '2',
     title: 'La RDC brille au Salon International de l’Agriculture',
     excerpt: 'Retour sur la participation remarquée de la délégation congolaise, accompagnée par ASM Vitrine Projet pour promouvoir l’excellence agricole.',
     content: `
@@ -25,11 +62,11 @@ export const articles: Article[] = [
     `,
     date: 'Mars 5, 2025',
     category: 'Événement',
-    imageUrl: '/assets/bg-hero.jpg',
+    imageUrl: '/assets/img/articles/agri_1.jpg',
     featured: true
   },
   {
-    id: '2',
+    id: '3',
     title: 'Stratégies de visibilité des institutions congolaises à l’international',
     excerpt: 'ASM Vitrine Projet développe des stratégies de communication et de représentation adaptées aux marchés cibles.',
     content: `
@@ -43,11 +80,11 @@ export const articles: Article[] = [
     `,
     date: 'Avril 12, 2025',
     category: 'Stratégie',
-    imageUrl: '/assets/at_2.jpg',
+    imageUrl: '/assets/img/articles/art_1.jpg',
     featured: true
   },
   {
-    id: '3',
+    id: '4',
     title: 'Accompagnement du Ministère des Mines au Salon de Bordeaux',
     excerpt: 'Une présence marquante à la 72ᵉ édition du Salon de l’Industrie Minérale grâce à une stratégie coordonnée.',
     content: `
@@ -58,11 +95,11 @@ export const articles: Article[] = [
     `,
     date: 'Mai 2, 2025',
     category: 'Salon',
-    imageUrl: '/assets/at_1.jpg',
+    imageUrl: '/assets/img/articles/mn_1.jpg',
     featured: true
   },
   {
-    id: '4',
+    id: '5',
     title: 'Préparation de la 61ᵉ édition du SIA : une nouvelle ambition pour la RDC',
     excerpt: 'ASM Vitrine Projet se mobilise pour faire de la prochaine participation de la RDC un succès encore plus retentissant.',
     content: `
@@ -76,25 +113,8 @@ export const articles: Article[] = [
     `,
     date: 'Juin 10, 2025',
     category: 'Préparation',
-    imageUrl: '/assets/at_1.jpg',
+    imageUrl: '/assets/img/articles/agri_2.jpg',
     featured: true
   },
-  {
-    id: '5',
-    title: 'Faciliter le réseautage et les partenariats techniques',
-    excerpt: 'ASM Vitrine Projet accompagne les institutions pour nouer des collaborations techniques et économiques durables.',
-    content: `
-      <p>Au-delà de la simple participation aux salons, ASM Vitrine Projet développe des solutions sur mesure pour faciliter les échanges techniques et commerciaux entre la RDC et ses partenaires étrangers.</p>
-      
-      <h2>Sessions B2B et networking</h2>
-      <p>Organisation de rencontres personnalisées, traduction, médiation et suivi des contacts pour transformer les opportunités en partenariats concrets.</p>
-      
-      <h2>Suivi post-événement</h2>
-      <p>Un accompagnement sur le long terme pour s’assurer que les relations initiées se concrétisent en contrats et collaborations stratégiques.</p>
-    `,
-    date: 'Juillet 1, 2025',
-    category: 'Partenariat',
-    imageUrl: '/assets/at_1.jpg',
-    featured: true
-  }
+  
 ];

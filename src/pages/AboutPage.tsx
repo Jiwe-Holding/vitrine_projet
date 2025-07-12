@@ -46,7 +46,7 @@ const AboutPage: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <img
-                src="/assets/WhatsApp Image 2025-05-19 at 19.48.39_4a974723.jpg"
+                src="/assets/about.jpg"
                 alt="ASM Vitrine Projet"
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
