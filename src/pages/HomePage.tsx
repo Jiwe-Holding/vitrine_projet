@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-navy-900/80 z-10" />
         <img
-          src="https://img.digital4.biz/wp-content/uploads/2021/11/Agenda-2030_1.jpg"
+          src="/assets/img/hero_bg.jpg"
           alt="ASM Vitrine Projet"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -105,9 +105,8 @@ const HomePage: React.FC = () => {
           >
             <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">Qui sommes-nous ?</h2>
             <p className="text-gray-200 mb-6">
-              ASM Vitrine Projet est une entreprise congolaise spécialisée dans la communication,
-              la facilitation et l’accompagnement institutionnel lors des salons et événements
-              internationaux. Nous mettons en lumière les atouts de la RDC à l’échelle mondiale.
+              ASM Vitrine Projet est une entreprise congolaise 
+              spécialisée dans l'organisation événementiel et la promotion des objectifs de développement durable en RDC.
             </p>
             <Link
               to="/about"
@@ -125,11 +124,17 @@ const HomePage: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="h-96 rounded-lg overflow-hidden shadow-xl"
           >
-            <img
-              src="https://www.shutterstock.com/shutterstock/videos/1049930395/thumb/1.jpg?ip=x480"
-              alt="Présentation"
-              className="w-full h-full object-cover"
-            />
+            <video
+              src="/assets/video/about.mp4"
+              className="w-full h-full object-cover rounded-lg shadow-lg"
+              autoPlay
+              loop
+              muted
+              playsInline
+              controls
+            >
+              Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
           </motion.div>
         </div>
       </section>
@@ -255,13 +260,13 @@ const HomePage: React.FC = () => {
                     {item.title}
                   </h3>
                   
-                  <Link 
+                  {/* <Link 
                     to={item.link} 
                     className="inline-flex items-center text-white font-medium group-hover:text-gold-500 transition-colors mt-2"
                   >
                     Voir le Project
                     <ArrowRight size={16} className="ml-2 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                  </Link> */}
                 </div>
               </motion.div>
             ))}
@@ -275,7 +280,7 @@ const HomePage: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <Link 
-              to="/portfolio" 
+              to="/realisations" 
               className="inline-flex items-center text-navy-800 font-medium hover:text-gold-600 transition-colors"
             >
               Voir tout les Projets
@@ -284,6 +289,89 @@ const HomePage: React.FC = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Featured Videos Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <motion.div
+            className="text-center mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">
+              Nos Vidéos
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Découvrez en images nos actions, participations à des salons internationaux et témoignages de nos partenaires.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <motion.div
+              className="rounded-lg overflow-hidden shadow-lg"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <video
+                src="/assets/video/jt_19.mp4"
+                className="w-full h-64 object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              >
+                Votre navigateur ne supporte pas la lecture vidéo.
+              </video>
+            </motion.div>
+
+            <motion.div
+              className="rounded-lg overflow-hidden shadow-lg"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+            >
+              <video
+                src="/assets/video/min_sim.mp4"
+                className="w-full h-64 object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              >
+                Votre navigateur ne supporte pas la lecture vidéo.
+              </video>
+            </motion.div>
+
+            <motion.div
+              className="rounded-lg overflow-hidden shadow-lg"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              <video
+                src="/assets/video/sim_vd.mp4"
+                className="w-full h-64 object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              >
+                Votre navigateur ne supporte pas la lecture vidéo.
+              </video>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Call to Action */}
       <section className="py-16 bg-gold-500 text-white">

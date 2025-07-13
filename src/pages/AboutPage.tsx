@@ -4,7 +4,7 @@ import { Award, BookOpen, Briefcase, GraduationCap, Mail, MapPin, Globe } from '
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="pt-24 pb-16">
+    <div className="pt-2 pb-16">
       {/* Hero Section */}
       <section className="bg-navy-900 text-white py-16">
         <div className="container mx-auto px-4">

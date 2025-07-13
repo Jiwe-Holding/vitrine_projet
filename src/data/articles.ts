@@ -11,6 +11,32 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    id: '9',
+    title: "Invitation au Salon International de l'Alimentation en Chine (SIAL China)",
+    excerpt: "ASM Vitrine Projet vous invite à participer au SIAL China du 1er au 3 septembre 2025 pour développer vos exportations et partenariats sur le marché chinois.",
+    content: `
+      <p>ASM Vitrine Projet vous invite à participer au <strong>Salon International de l'Alimentation en Chine (SIAL China)</strong>, qui se tiendra du <strong>1er au 3 septembre 2025</strong>. Cet événement majeur est une plateforme unique pour développer vos opportunités commerciales et accéder au marché chinois en pleine expansion.</p>
+      
+      <h2>Pourquoi participer ?</h2>
+      <ul>
+        <li><strong>Rencontrer des investisseurs alimentaires chinois clés :</strong> Développez des relations stratégiques et identifiez de nouveaux partenaires commerciaux.</li>
+        <li><strong>Développer vos exportations de produits bruts :</strong> Présentez vos produits et trouvez des débouchés sur le marché chinois en forte croissance.</li>
+        <li><strong>Explorer les équipements de transformation et d'emballage :</strong> Découvrez les dernières innovations et technologies pour optimiser vos processus de production.</li>
+        <li><strong>Développer des partenariats stratégiques :</strong> Nouez des collaborations durables pour renforcer votre présence internationale.</li>
+      </ul>
+      
+      <h2>Inscription et informations</h2>
+      <p>Pour plus d'informations et pour vous inscrire, contactez-nous au <strong>+243 81 760 79 34</strong>.</p>
+      
+      <p>Cordialement,<br/>
+      <strong>ASM Vitrine Projet</strong></p>
+    `,
+    date: 'Septembre 1, 2025',
+    category: 'Événement',
+    imageUrl: '/assets/img/articles/sial.jpg',
+    featured: true
+  },
+  {
     id: '7',
     title: "Participation au Salon International de l’Agriculture (SIA)",
     excerpt: "ASM Vitrine Projet valorise les filières agricoles congolaises et organise la présence de la RDC à l’un des plus grands salons mondiaux.",

@@ -36,7 +36,7 @@ const ArticlePage: React.FC = () => {
   }
 
   return (
-    <div className="pt-24 pb-16">
+    <div className="pt-2 pb-16">
       {/* Article Header */}
       <section 
         className="relative flex items-center justify-center py-24 px-4 mb-8 overflow-hidden"

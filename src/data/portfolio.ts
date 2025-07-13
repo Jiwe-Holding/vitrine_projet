@@ -17,7 +17,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Participation de la RDC organisée par ASM Vitrine Projet, mettant en valeur les filières agricoles et artisanales congolaises.',
     category: 'Événement',
     imageUrl: '/assets/img/projets/sia_event.jpg',
-    link: '/portfolio/sia-participation',
+    link: '/realisations/sia-participation',
     date: 'Mars 2025',
     featured: true
   },
@@ -27,7 +27,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Accompagnement du Ministère des Mines et des directions techniques pour une présence stratégique à la 72ᵉ édition du salon.',
     category: 'Salon',
     imageUrl: '/assets/img/projets/sim_event.png',
-    link: '/portfolio/bordeaux-mines',
+    link: '/realisations/bordeaux-mines',
     date: 'Mai 2025',
     featured: true
   },
@@ -37,7 +37,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Conception de nouvelles stratégies de communication pour renforcer la visibilité et l’attractivité de la RDC lors de l’édition 2026.',
     category: 'Stratégie',
     imageUrl: '/assets/img/projets/sia_event.jpg',
-    link: '/portfolio/preparation-sia-61',
+    link: '/realisations/preparation-sia-61',
     date: 'Juin 2025'
   },
   {
@@ -46,7 +46,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Adaptation des contenus et organisation de sessions B2B pour promouvoir les institutions congolaises sur le marché nord-américain.',
     category: 'Stratégie',
     imageUrl: '/assets/img/pt_2.jpg',
-    link: '/portfolio/strategie-amerique-nord',
+    link: '/realisations/strategie-amerique-nord',
     date: 'Avril 2025'
   },
   {
@@ -55,7 +55,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Organisation de rencontres B2B et accompagnement des institutions publiques et privées pour établir des partenariats durables.',
     category: 'Partenariat',
     imageUrl: '/assets/img/pt_1.jpg',
-    link: '/portfolio/reseautage-partenariats',
+    link: '/realisations/reseautage-partenariats',
     date: 'Juillet 2025'
   },
   {
@@ -64,7 +64,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Création de supports modernes et mise en place de stratégies de communication pour accroître la visibilité des acteurs congolais.',
     category: 'Communication',
     imageUrl: '/assets/img/cd_1.jpg',
-    link: '/portfolio/valorisation-institutions',
+    link: '/realisations/valorisation-institutions',
     date: 'Août 2025',
     featured: true
   }

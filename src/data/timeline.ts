@@ -14,7 +14,7 @@ export const timelineEvents: TimelineEvent[] = [
     year: '2020',
     description: "Lancement officiel de l'entreprise spécialisée dans la communication et la représentation institutionnelle, avec pour mission de promouvoir l'excellence congolaise à l'international.",
     category: 'Fondation',
-    imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.40_b46480f1.jpg'
+    // imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.40_b46480f1.jpg'
   },
   {
     id: '2',
@@ -22,14 +22,15 @@ export const timelineEvents: TimelineEvent[] = [
     year: '2021',
     description: "Accompagnement de la délégation congolaise lors de la 59ᵉ édition du SIA à Paris, marquant une première présence remarquée et un succès d’image pour la RDC.",
     category: 'Événement',
-    imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.38_ad6be365.jpg'
+    // imageUrl: '/assets/img/'
   },
   {
     id: '3',
     title: 'Consolidation des partenariats institutionnels',
     year: '2022',
     description: "Signature de partenariats avec des ministères et organismes publics pour structurer la participation congolaise à des événements internationaux.",
-    category: 'Partenariat'
+    category: 'Partenariat',
+    imageUrl: '/assets/about.jpg'
   },
   {
     id: '4',
@@ -37,7 +38,7 @@ export const timelineEvents: TimelineEvent[] = [
     year: '2023',
     description: "Organisation et accompagnement du Ministère des Mines et de ses directions techniques pour une présence stratégique à la 72ᵉ édition du salon.",
     category: 'Événement',
-    imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.38_7ac3f02a.jpg'
+    imageUrl: '/assets/img/projets/sim_event.png'
   },
   {
     id: '5',
@@ -45,7 +46,7 @@ export const timelineEvents: TimelineEvent[] = [
     year: '2024',
     description: "Adaptation des stratégies de présentation et facilitation de rencontres B2B ciblées pour promouvoir les institutions congolaises sur le marché nord-américain.",
     category: 'Stratégie',
-    imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.37_dea12396.jpg'
+    // imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.37_dea12396.jpg'
   },
   {
     id: '6',
@@ -53,7 +54,8 @@ export const timelineEvents: TimelineEvent[] = [
     year: '2025',
     description: "Mise en place de nouvelles stratégies de communication pour une présence encore plus forte et coordonnée de la RDC au Salon International de l’Agriculture.",
     category: 'Préparation',
-    imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.38_1a6b6f17.jpg'
+    // imageUrl: '/assets/WhatsApp Image 2025-05-19 at 19.48.38_1a6b6f17.jpg'
+    
   },
   {
     id: '7',

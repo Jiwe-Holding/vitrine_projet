@@ -5,7 +5,7 @@ import { timelineEvents } from '../data/timeline';
 
 const TimelinePage: React.FC = () => {
   return (
-    <div className="pt-24 pb-16">
+    <div className="pt-2 pb-16">
       {/* Header */}
       <section className="bg-navy-900 text-white py-12 mb-8">
         <div className="container mx-auto px-4">
